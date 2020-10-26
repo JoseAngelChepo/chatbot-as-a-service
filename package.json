@@ -1,0 +1,28 @@
+{
+  "name": "chatbot-template",
+  "version": "1.0.0",
+  "description": "Template chatbot as a service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseAngelChepo/chatbotjs.git"
+  },
+  "author": "Jose Angel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseAngelChepo/chatbotjs/issues"
+  },
+  "homepage": "https://github.com/JoseAngelChepo/chatbotjs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jimp": "^0.6.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "trae": "^1.4.2"
+  }
+}
